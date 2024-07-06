@@ -59,4 +59,18 @@ npm run lint
 ```sh
 - create .env file in root of the project directory
 - add VITE_API_URL=http://127.0.0.1:3000/api/v1
+- add VITE_PORT=5173
+- add VITE_HOST=0.0.0.0
+```
+
+### API backend (Optional)
+Configure backend created in Ruby on Rails
+https://github.com/sonianand11/rails_api_example
+
+### Start server Using Docker
+Assuming you have docker installed if you not follow [Installation instruction](https://docs.docker.com/engine/install/).
+
+Execute this command from root of project folder.
+```
+sudo docker compose up --build
 ```
